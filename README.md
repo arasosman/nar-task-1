@@ -16,6 +16,7 @@ Projede Cache, Ve Request limit (throttle) kullanılması önerilmektedir (dakik
 
 Modeller
 
+Organization
  - id
  - uuid
  - name
@@ -41,7 +42,7 @@ User
 - Hoşgeldin maili farklı bir servisten (Microservice) gönderilmelidir. (Optional)
 - İki servis arasındaki iletişim Service Bus(Rabbitmq or kafka) üzerinden olmalıdır. (Optional)
 - Yazılan kodların psr 2 standardında olması ve solid prensiplerine uygun olması beklenmektedir (Optional)
-- kodların static kod analizi tollarında geçmesi beklenmektedir (exp: phpcs or phpmd) (Optional)
+- kodların static kod analizi toollarında geçmesi beklenmektedir (exp: phpcs or phpmd) (Optional)
 - analiz için composer komutları yazılabilir. (Optional)
 
 
